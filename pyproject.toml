@@ -1,0 +1,13 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "py-json-repair"
+version = "0.1.0"
+description = "Fast, zero-dependency JSON fixer for LLM outputs. Repairs unclosed braces, markdown fences, and trailing commas."
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "me1121118" }]
+keywords = ["llm", "json", "json-repair", "openai", "claude", "gemini", "structured-output"]
+dependencies = []
